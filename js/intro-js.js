@@ -11,8 +11,6 @@ console.log(greeting);
  // log the result of the prompt
  console.log(userName);
 
-
-
  let isFull = confirm("Is the class full?");
 console.log(isFull);
 
