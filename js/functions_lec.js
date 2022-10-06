@@ -32,7 +32,7 @@
 //
 //
 //  Defining functions
-//  Argument are values we pas to a function when executing.
+//  Argument are values to a function when executing.
 //  Parameters are placeholders for our function definition.
 // function add(num, num2) {
 //          return the output of num + num2
@@ -69,10 +69,11 @@ function returnFive() {
     return 5;
 }
 
- // Write a function, isFive, that takes in an input and returns the boolean value true if the passed argument is the number 5 or the string "5". Return false otherwise.
-    function isFive(number) {
-        return number === 5;
+// Write a function, isFive, that takes in an input and returns the boolean value true if the passed argument is the number 5 or the string "5". Return false otherwise.
+function isFive(number) {
+    return number;
 }
+console.log(isFive(5));
 // how many inputs should the function have?
 // what are the data types for the inputs?
 // what is the data type of the output/return value?
@@ -94,7 +95,7 @@ function returnFive() {
 // Write a function, isSameLength, that takes in two string inputs and returns the boolean value true if the passed arguments are the same length. Return false otherwise.
 //     function isSameLength(same,that) {
 //         return same.length === that.length;
-    }
+
 
 //  How many inputs?
 //  What type of input?
@@ -103,30 +104,15 @@ function returnFive() {
 //     string
 //     boolean
 
-
-// Make a function named isOdd(number)
-//https://stackoverflow.com/questions/6211613/testing-whether-a-value-is-odd-or-even
-        function isOdd(n) {
-        return isEven(Number(n) +1);
-    }
-// Make a function named isEven(number)
-// https://stackoverflow.com/questions/6211613/testing-whether-a-value-is-odd-or-even
-    function isEven(n) {
-        n= Number(n);
-        return n === 0 || !!(n && !(n%2));
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+// // Make a function named isOdd(number)
+// //https://stackoverflow.com/questions/6211613/testing-whether-a-value-is-odd-or-even
+//         function isOdd(n) {
+//         return isEven(Number(n) +1);
+//     }
+// // Make a function named isEven(number)
+// // https://stackoverflow.com/questions/6211613/testing-whether-a-value-is-odd-or-even
+//     function isEven(n) {
+//         n= Number(n);
+//         return n === 0 || !!(n && !(n%2));
+//     }
