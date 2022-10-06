@@ -39,13 +39,12 @@
 // let hasConflict = confirm("Do you have a conflict with your schedule?");
 // alert(!isfull && !hasConflict);
 
-Discount Offer
+//Discount Offer
 let itemsBought = prompt("How many items did you buy?");
 let offer = confirm("Has the offer expired?");
 let isPremium = confirm("Are you a premium member>");
 
-alert(parseFloat(itemsBought) > 2 || isPremium) && !offer);
-
+alert(parseFloat(itemsBought) > 2 || isPremium && !offer);
 
 
 
