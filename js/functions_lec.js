@@ -62,17 +62,19 @@
 // let two = increment(x1);
 
 
-
-
 // Write a function, returnFive, that returns the number five. No inputs should be defined.
+
 function returnFive() {
     return 5;
 }
+
+console.log(returnFive(5));
 
 // Write a function, isFive, that takes in an input and returns the boolean value true if the passed argument is the number 5 or the string "5". Return false otherwise.
 function isFive(number) {
     return number;
 }
+
 console.log(isFive(5));
 // how many inputs should the function have?
 // what are the data types for the inputs?
