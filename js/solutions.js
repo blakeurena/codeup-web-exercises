@@ -249,3 +249,10 @@ isTypeMatch(true, "stranger") {
 isTypeMatch(null, 27) {
 
 }                // false
+
+// 9. isFactor
+findLongestString("Jethro", "Tull")         // "Jethro"
+findLongestString("Hello", " stranger")     // " stranger"
+findLongestString("Hello", 1984)            // "Hello"
+findLongestString(true, "stranger")         // "stranger"
+findLongestString(null, 27)                 // ""
