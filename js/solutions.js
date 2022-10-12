@@ -167,3 +167,21 @@ isEqual(true, false) {
 isEqual('4', 4) {
 
 }           // false
+
+function isNot(b) {
+
+}
+
+// 5. isNot
+isNot(false) {
+
+}           // true
+isNot(true) {
+
+}            // false
+isNot("Bob") {
+
+}           // false
+isNot(null) {
+
+}           // false
