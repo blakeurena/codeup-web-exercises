@@ -135,3 +135,35 @@ isEqualNumber(null, null)  {
 isEqualNumber('Seven', 'eight') {
 
 }    // false
+
+// 4. isEqual
+function isEqual(bill, bill2) {
+
+}
+isEqual("Bill", "Bill") {
+
+}    // true
+isEqual(9, 9) {
+
+}             // true
+isEqual(null, null) {
+
+}       // true
+isEqual(false, false) {
+
+}     // true
+isEqual("Codeup", "time") {
+
+} // false
+isEqual("James", Jimmy) {
+
+}   // false
+isEqual(null, true) {
+
+}       // false
+isEqual(true, false) {
+
+}      // false
+isEqual('4', 4) {
+
+}           // false
