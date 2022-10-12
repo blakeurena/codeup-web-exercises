@@ -206,3 +206,25 @@ calcAbs("Bob") {
 calcAbs(null) {
 
 }           // 0
+
+function calcCube(number) {
+
+}
+
+// 7. calCube
+calcCube(10) {
+
+}        // 1000
+calcCube(3) {
+
+}         // 27
+
+calcCube(-4) {
+
+}        // -64
+calcCube("Bob") {
+
+}     // 0
+calcCube(null) {
+
+}       // 0
