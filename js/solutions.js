@@ -228,3 +228,24 @@ calcCube("Bob") {
 calcCube(null) {
 
 }       // 0
+
+function isTypeMatch(number, number2) {
+
+}
+
+// 8. isTypeMatch
+isTypeMatch(16.3, -84) {
+
+}               // true
+isTypeMatch("Hello", " stranger") {
+
+}    // true
+isTypeMatch("Hello", 1984) {
+
+}           // false
+isTypeMatch(true, "stranger") {
+
+}          // false
+isTypeMatch(null, 27) {
+
+}                // false
