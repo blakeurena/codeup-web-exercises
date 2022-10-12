@@ -185,3 +185,24 @@ isNot("Bob") {
 isNot(null) {
 
 }           // false
+
+function calcAbs(number) {
+
+}
+
+// 6.
+calcAbs(10) {
+
+}             // 10
+calcAbs(-17.3) {
+
+}          // 17.3
+calcAbs(2.7 - 3.8) {
+
+}      // 1.1
+calcAbs("Bob") {
+
+}          // 0
+calcAbs(null) {
+
+}           // 0
