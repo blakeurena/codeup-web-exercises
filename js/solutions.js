@@ -250,9 +250,10 @@ isTypeMatch(null, 27) {
 
 }                // false
 
-// 9. isFactor
-findLongestString("Jethro", "Tull")         // "Jethro"
-findLongestString("Hello", " stranger")     // " stranger"
-findLongestString("Hello", 1984)            // "Hello"
-findLongestString(true, "stranger")         // "stranger"
-findLongestString(null, 27)                 // ""
+let longestString("Jethro", "Tull");    // "Jethro"
+let LongestString("Hello", " stranger") ;    // " stranger"
+let LongestString("Hello", 1984)    ;        // "Hello"
+let LongestString(true, "stranger") ;        // "stranger"
+let LongestString(null, 27)   ;
+
+)()}
